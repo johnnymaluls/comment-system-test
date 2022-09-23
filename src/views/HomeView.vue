@@ -12,7 +12,7 @@
 
   <Table/>
 
-  <el-dialog v-model="dialogFormVisible" title="Shipping address">
+  <el-dialog v-model="dialogFormVisible" title="Add Post">
     <el-form :model="form">
       <el-form-item label="ID" :label-width="formLabelWidth">
         <el-input v-model="form.id" autocomplete="off" />
